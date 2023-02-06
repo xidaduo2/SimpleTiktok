@@ -4,6 +4,8 @@
 
 具体功能内容参考飞书说明文档
 
+https://bytedance.feishu.cn/docs/doccnKrCsU5Iac6eftnFBdsXTof#
+
 工程无其他依赖，直接编译运行即可
 
 ```shell
