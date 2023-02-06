@@ -1,11 +1,15 @@
 package main
 
 import (
-	"github.com/RaymondCode/simple-demo/controller"
 	"github.com/gin-gonic/gin"
+	"github.com/xidaduo2/SimpleTiktok/controller"
+	"github.com/xidaduo2/SimpleTiktok/models"
 )
 
 func initRouter(r *gin.Engine) {
+	// init database
+	models.InitDB()
+
 	// public directory is used to serve static resources
 	r.Static("/static", "./public")
 

@@ -8,6 +8,8 @@ https://bytedance.feishu.cn/docs/doccnKrCsU5Iac6eftnFBdsXTof#
 
 工程无其他依赖，直接编译运行即可
 
+往届完整示例： https://github.com/ACking-you/byte_douyin_project
+
 ```shell
 go build && ./simple-demo
 ```
